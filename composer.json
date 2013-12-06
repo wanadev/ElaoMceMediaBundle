@@ -1,8 +1,8 @@
 {
-    "name":        "elao/mce-media-bundle",
+    "name":        "wanadev/mce-media-bundle",
     "type":        "symfony-bundle",
     "description": "This bundle handles the integration of File Manager and Image Manager plugins inside TinyMCE",
-    "keywords":    ["elao", "tiny_mce", "media", "bundle"],
+    "keywords":    ["wanadev", "tiny_mce", "media", "bundle"],
     "homepage":    "http://github.com/Elao/ElaoMceMediaBundle",
     "license":     "MIT",
 
@@ -23,7 +23,7 @@
 
     "require": {
         "php":                      ">=5.3.3",
-        "symfony/framework-bundle": ">=2.1,<2.4-dev"
+        "symfony/framework-bundle": "*"
     },
 
     "autoload": {
